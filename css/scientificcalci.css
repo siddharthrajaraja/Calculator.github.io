@@ -1,0 +1,33 @@
+body{
+    background-repeat:repeat;
+    background-size:cover;
+}
+.nav{
+    width:50%;
+    height:auto;
+    border:2px solid blue;
+    background-color:aqua;
+    opacity: 0.8;
+    font-family:cursive;
+    
+}
+.par{
+    font-size:20px;
+    color:black;
+    
+}
+fieldset{
+    border:2px solid blue;
+    width: 20%;
+    height:auto;
+    background-color: aqua;
+    opacity: 0.8;
+    margin-bottom: 150px;
+    
+
+}
+.but{
+    background-color:yellow;
+    border-radius:30px;
+    font-family:cursive;
+}

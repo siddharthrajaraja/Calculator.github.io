@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title title="logarithm calculator">Logarithm</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/logs.css" type="text/css"/>
+</head>
+<body background="img/fox.png">
+    <center>
+        <div class="nav">
+            <p style="font-size:30px;color:black;" class="par">LOGARITHMIC CALCULATOR</p>
+        </div>
+    </center>
+    <br />
+    <br />
+    <br />
+    <center>
+        <form >
+        <fieldset>
+            <legend>LOGARITHM</legend>
+            <input type="text" id="x" placeholder="Enter the number" title="Enter number here" /><br /><br />
+            <input type="text" id="base" title="Enter base here" placeholder="Enter base" /><br /><br />
+            <button type="button" onclick="fun()" id="submit" title="Click to calculate the log of the number">Calculate</button>
+            
+            <input type="text"  id="LAB1" placeholder="SOLUTION!!" style="display: none;"/>
+            
+            <button type="button" title="Clear" onclick="location.reload()">Clear</button>
+            
+        </fieldset>
+    </form>
+    </center>
+    <br/><br /><br /><br /><br />
+    <center>
+        <footer style="border:2px solid blue;width:400px;font-size:30px;filter:blur(1px);background-color:blue;">
+            <p style="color:aquamarine"><u>Developed By:</u></p>
+            <p style="color:darkkhaki">Ejaaz Sayyed</p>
+        </footer>
+    </center>
+
+    <script>
+        function fun() {
+            var num = parseInt(document.getElementById("x").value, 10);
+            var base = parseInt(document.getElementById("base").value, 10);
+
+            //window.alert(String(Math.log(num)/Math.log(base)));
+            document.getElementById("LAB1").style.display='block';
+            document.getElementById("LAB1").setAttribute("placeholder",String(Math.log(num)/Math.log(base)));
+         }
+    </script>
+    
+</body>
+</html>

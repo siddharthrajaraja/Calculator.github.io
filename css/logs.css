@@ -1,0 +1,33 @@
+body {
+    background-repeat: repeat;
+    background-size: cover;
+}
+.nav {
+    width:450px;
+    height: auto;
+    border: 2px solid blue;
+    background-color:aquamarine;
+}
+fieldset{
+    border:2px solid blue;
+    background-color:aquamarine;
+    width:200px;
+    height:auto;
+}
+button{
+    font-size:20px;
+    background-color:antiquewhite;
+    border-radius:30px;
+    margin:3px;
+}
+#tarea{
+    min-width:50px;
+    min-height:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+legend {
+        font-size:20px;
+        color: black;
+        background-color:lightcoral;
+    }
