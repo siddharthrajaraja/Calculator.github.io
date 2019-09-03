@@ -1,6 +1,6 @@
 function prime(){
     let Ar=[];
-    alert("HELLO!! HERE YOU CAN DETERMINE ALL PRIMES IN RANGE SPECIFIED [ 0 , 20000000 ] !! ")
+    alert("HELLO!! HERE YOU CAN DETERMINE ALL PRIMES IN RANGE SPECIFIED ( 0 , 20000000 ] !! ")
     a=parseInt( prompt("SPECIFY LOWER BOUND!! : "))
     b=parseInt( prompt("SPECIFY UPPER BOUND!! : ") )
     
