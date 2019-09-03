@@ -10,7 +10,7 @@ marquee#one{
 div#ABOX , div#ALBOX 
 {
     display: none ;
-    width: 300px;height: 300px;border: 3px solid black;padding-top: 50px;background-color: orange; opacity: 0.95;
+    width:fit-content;height: 300px;border: 3px solid black;padding-top: 50px;background-color: orange; opacity: 0.95;
     
 }
 
@@ -60,5 +60,12 @@ fieldset legend{
     cursor: pointer; 
     text-align: center;   
     margin-top: 5px;
+
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1rem;
 
 }
